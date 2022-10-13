@@ -32,7 +32,7 @@ class Db_Class {
     }
 
     function cleanData($val){
-         return pg_escape_string($val);
+        return pg_escape_string($val);
     }
 
 }
